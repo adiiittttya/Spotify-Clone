@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+body{
+    background-color: rgb(228, 13, 13);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ nav ul {
+     display: flex;
+     list-style-type: none;
+     color: white;
+     align-items: center;
+     padding:5px
+     font-family: 'Dancing Script', cursive;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+ }
+ nav ul li{
+     padding-right: 20px; 
+ }
+
+nav{padding:12px;
+    background-color: black;
+    display: flex
+}
+.logo{
+    padding-left: 10px;
+    height: 45px ;
+}
+.spotify{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.container{display: flex;
+    font-family: 'Merriweather', serif;
+    width: 70%;
+    height:105vh;
+    color: white;
+    margin: 30px auto;
+    border-radius: 12px;
+    padding: 20px 30px;
+    font-size: 20px;
+    background-position-x: -300px;
+    background-image: url(bg.jpg);
+   
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background image border-radius: 16px;
+}
+.sub{
+    background-color: black;
+}
+
+
+.bottom{ justify-content: center;
+    align-items: center;
+    display: flex;
+    position: sticky;
+   height: 120px;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    bottom: 0;
+    
+}
+#range{ margin-top: 20px;
+    width: 180vh;
+    cursor: pointer;
+
+}
+.icons{
+    margin: 20px 0px;
+    cursor:pointer;
+}
+.songs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    width: 50%;
+    color: black;
+    height: 40px;
+    margin: 20px 2px;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+.songsphoto{display: flex;
+    height: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 50%;
+    margin-left: 15px;
+  
+
+}
+#playlist{
+    margin-top: 60px;
+}
+.fontawesome{
+    margin: 0px 15px;
+}
+.songinfo{
+    position:absolute;
+    left: 13.5vh;
+    opacity: 0;
+    transition: opacity .5s ease-in;
+    
+}
+.masterplay{
+    cursor: pointer;
+}
+.time{
+    color: white;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=IBM+Plex+Serif:ital@1&family=Lobster&display=swap"
+        rel="stylesheet">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <nav>
+        <img src="logo.png" alt="logo" class="logo">s
+        <ul>
+            <li class="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Best songs</h1>
+        <div id="playlist" class="songItem">
+            <div class="songs"><img src="song.jpg" alt="" class="songsphoto">
+                <span class="songname">Excuses -AP Dhillon</span>
+                <span class="fontawesome"><i id="1" class="far masterplay fa- fa-play-circle" ></i id="1"></span>
+            </div>
+            <div class="songs"><img src="song1.jpg" alt="songphoto" class="songsphoto">
+                <span class="songname">Old Town Road -Lil Nas X</span>
+                <span class="fontawesome"><i id="2" class="far masterplay fa- fa-play-circle" ></i id="1"></span>
+            </div>
+            <div class="songs"><img src="song2.jpg " alt="songphoto" class="songsphoto">
+                <span class="songname">Memories</span>
+                <span class="fontawesome"><i id="3" class="far masterplay fa- fa-play-circle" ></i id="1"></span>
+            </div>
+            <div class="songs"><img src="song3.jpg" alt="songphoto" class="songsphoto">
+                <span class="songname">Peaches -Justin Bieber</span>
+                <span class="fontawesome"><i id="4" class="far masterplay fa- fa-play-circle" ></i id="1"></span>
+            </div>
+            <div class="songs"><img src="song4.jpg" alt="songphoto" class="songsphoto">
+                <span class="songname">Better -Zayn Malik</span>
+                <span class="fontawesome"><i id="5" class="far masterplay fa- fa-play-circle" "></i id="1"></span>
+            </div>
+            <div class="songs"><img src="song5.jpg" alt="songphoto" class="songsphoto">
+                <span class="songname">Beliver - Imagine Dragons</span>
+                <span class="fontawesome"><i id="6" class="far masterplay fa- fa-play-circle" ></i id="1"></span>
+            </div>
+            <div class="songs"><img src="song6.jpg" alt="songphoto" class="songsphoto">
+                <span class="songname">Night Changes -One direction</span>
+                <span class="fontawesome"><i id="7" class="far masterplay fa- fa-play-circle" ></i id="1"></span>
+            </div>
+            <div class="songs"><img src="song7.jpg" alt="songphoto" class="songsphoto">
+                <span class="songname">Yellow -Coldplay</span>
+                <span class="fontawesome"><i id="8" class="far masterplay fa- fa-play-circle" ></i id="1"></span>
+            </div>
+            <div class="songs"><img src="song8.jpg" alt="songphoto" class="songsphoto">
+                <span class="songname">Smack That -Akon</span>
+                <span class="fontawesome"><i id="9" class="far masterplay fa- fa-play-circle" ></i id="1"></span>
+            </div>
+            <div class="songs"><img src="song9.jpg" alt="songphoto" class="songsphoto">
+                <span class="songname">Hollywood's Bleeding -Post Malone</span>
+                <span class="fontawesome"><i id="10" class="far masterplay fa- fa-play-circle" ></i id="1"></span>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" min="1" max="100" value="0" class="slider" id="range">
+        <div class="songinfo" id="gif"><img src="playing.gif"  width="60px" alt="" >&nbsp&nbsp<span id="rangesong" >Excuses -AP Dhillon</span></div>
+        <div class="icons">
+            <i  class="fas fa-3x fa-step-backward" id="previous"></i >
+            <i  class="far fa-3x fa-play-circle" id="playbutton"></i i="1">
+            <i class="fas fa-3x fa-step-forward" id="next"></i >
+        </div>
+        <div class="time"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
